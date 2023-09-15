@@ -1,0 +1,269 @@
+[
+    {
+      "id": 1,
+      "name": "PSC OneTime",
+      "email": "https://thulasi.psc.kerala.gov.in/thulasi/"
+      
+    },
+    {
+      "id": 2,
+      "name": "Building Tax/Property Tax",
+      "email": "https://tax.lsgkerala.gov.in/epayment/QuickPaySearch.php"
+      
+    },
+    {
+      "id": 3,
+      "name": "Ownership Certificate",
+      "email": "https://tax.lsgkerala.gov.in/epayment/propertyTaxSearchNew.php"
+      
+    },
+    {
+      "id": 4,
+      "name": "KSEB New Connection",
+      "email": "https://wss.kseb.in/selfservices/ncsLogin.do"
+      
+    },
+    {
+      "id": 5,
+      "name": "Sabarimala Booking",
+      "email": "https://sabarimalaonline.org/#/register"
+      
+    },
+    {
+      "id": 6,
+      "name": "Employment Registration ",
+      "email": "https://eemployment.kerala.gov.in/usr/logins/jobseeker"
+      
+    },
+    {
+      "id": 7,
+      "name": "Land Tax",
+      "email": "https://revenue.kerala.gov.in/"
+      
+    },
+    {
+      "id": 8,
+      "name": "SSC Registration",
+      "email": "https://ssc.nic.in/"
+      
+    },
+    {
+      "id": 9,
+      "name": "Pancard Aadhaar Linking",
+      "email": "https://eportal.incometax.gov.in/iec/foservices/#/pre-login/bl-link-aadhaar"
+      
+    },
+    {
+      "id": 10,
+      "name": "Speed Post Tracking",
+      "email": "https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx"
+      
+    },
+    {
+      "id": 11,
+      "name": "Rationcard Services",
+      "email": "https://ecitizen.civilsupplieskerala.gov.in/index.php/c_login"
+      
+    },
+    {
+      "id": 12,
+      "name": "Special Permit for Taxi",
+      "email": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/statevalidation/homepage.xhtml?statecd=Mzc2MzM2MzAzNjY0MzIzODM3NjIzNjY0MzY2MjM3NGI0Yw=="
+      
+    },
+    {
+      "id": 13,
+      "name": "Passport",
+      "email": "https://www.passportindia.gov.in/AppOnlineProject/welcomeLink#"
+      
+    },
+    {
+      "id": 14,
+      "name": "AIMS Registration",
+      "email": "https://www.aims.kerala.gov.in/cropinsurance"
+      
+    },
+    {
+      "id": 15,
+      "name": "PM Kisan New Farmer Registration",
+      "email": "https://pmkisan.gov.in/registrationformnew.aspx"
+      
+    },
+    {
+      "id": 16,
+      "name": "PM Kisan E-kyc",
+      "email": "https://exlink.pmkisan.gov.in/aadharekyc.aspx"
+      
+    },
+    {
+      "id": 17,
+      "name": "KTET Application",
+      "email": "https://ktet.kerala.gov.in/Registration/exam_registration_instructions.php"
+      
+    },
+    {
+      "id": 18,
+      "name": "NEET Applicantion",
+      "email": "https://neet.nta.nic.in/"
+      
+    },
+    {
+      "id": 19,
+      "name": "Encumbrance (Kudikadam)",
+      "email": "https://pearl.registration.kerala.gov.in/ecapln.php?tok=3yskfjk4s44d94"
+      
+    },
+    {
+      "id": 20,
+      "name": "Birth/Death/  Marriage Certificate Download Corporation",
+      "email": "https://cr.lsgkerala.gov.in/RegSearch.php"
+      
+    },
+    {
+      "id": 21,
+      "name": "Vehicle kshemanidhi",
+      "email": "https://epay.kmtwwfb.org/kmtepay/relaxation/otphome.php"
+      
+    },
+    {
+      "id": 22,
+      "name": "Kerala water authority bill payment",
+      "email": "https://epay.kwa.kerala.gov.in/quickpay"
+      
+    },
+    {
+      "id": 23,
+      "name": "Police clearance certificate",
+      "email": "https://thuna.keralapolice.gov.in/"
+      
+    },
+    {
+      "id": 24,
+      "name": "Kerala tailoring works welfare fund board",
+      "email": "https://www.tailorwelfare.in/"
+      
+    },
+    {
+      "id": 25,
+      "name": "Medisep Download ",
+      "email": "https://medisepkerala.com/"
+      
+    },
+    {
+      "id": 26,
+      "name": "Medisep status check",
+      "email": "https://medisep.kerala.gov.in/SearchUser1.jsp?direct"
+      
+    },
+    {
+      "id": 27,
+      "name": "GDS",
+      "email": "https://indiapostgdsonline.gov.in/"
+      
+    },
+    {
+      "id": 28,
+      "name": "Sevsana Pension",
+      "email": "https://welfarepension.lsgkerala.gov.in/Web_efileReg.aspx"
+      
+    },
+    {
+      "id": 29,
+      "name": "Employment Exchange Registration",
+      "email": "https://eemployment.kerala.gov.in/usr/logins/jobseeker"
+      
+    },
+    {
+      "id": 30,
+      "name": "Employment Exchange Renewal",
+      "email": "https://eemployment.kerala.gov.in/pub/publicProcess/renewal"
+      
+    },
+    {
+      "id": 31,
+      "name": "Pravasi Kshemanidhi New registration",
+      "email": "https://register.pravasikerala.org/public/index.php/online/PublicLogin"
+      
+    },
+    {
+      "id": 32,
+      "name": "Pravasi Kshemanidhi Login",
+      "email": "ttps://register.pravasikerala.org/public/index.php/online/PublicLogin"
+      
+    },
+    {
+      "id": 33,
+      "name": "Pravasi Kshemanidhi Payment",
+      "email": "ttps://register.pravasikerala.org/public/index.php/online/PublicLogin"
+      
+    },
+    {
+      "id": 34,
+      "name": "Pancard Instant",
+      "email": "https://eportal.incometax.gov.in/iec/foservices/#/pre-login/instant-e-pan/getNewEpan"
+      
+    },
+    {
+      "id": 35,
+      "name": "Sevsana Pension",
+      "email": "https://welfarepension.lsgkerala.gov.in/Web_efileReg.aspx"
+      
+    },
+    {
+      "id": 36,
+      "name": "Vehicle Fine E challan",
+      "email": "https://echallan.parivahan.gov.in/index/accused-challan"
+      
+    },
+    {
+      "id": 37,
+      "name": "Birth/Death/ Marriage Certificate Download Panchayath",
+      "email": "https://cr.lsgkerala.gov.in/RegSearch.php"
+      
+    },
+    {
+      "id": 38,
+      "name": "Birth/Death/ Marriage Certificate Registration Panchayath",
+      "email": "https://cr.lsgkerala.gov.in/RegSearch.php"
+      
+    },
+    {
+      "id": 40,
+      "name": "Vehicle Fine E challan",
+      "email": "https://echallan.parivahan.gov.in/index/accused-challan"
+      
+    },
+    {
+      "id": 41,
+      "name": "KSRTC Ticket Booking",
+      "email": "https://online.keralartc.com/oprs-web/"
+      
+    },
+    {
+      "id": 42,
+      "name": "KSRTC Swift Ticket Booking",
+      "email": "https://onlineksrtcswift.com/"
+      
+    },
+    {
+      "id": 43,
+      "name": "Pancard Aadhaar Link Status",
+      "email": "https://eportal.incometax.gov.in/iec/foservices/#/pre-login/link-aadhaar-status"
+      
+    },
+    {
+      "id": 44,
+      "name": "Food safety (fssai)",
+      "email": "https://foscos.fssai.gov.in/apply-for-lic-and-reg"
+      
+    },{
+      "id": 45,
+      "name": "Tharammattam, Pokkuvaravu, Thandapper, Location map",
+      "email": "https://revenue.kerala.gov.in/"
+      
+    }    
+    
+    
+    
+    
+  ]

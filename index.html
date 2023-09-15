@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+
+  <title>Digitalseva Help</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <section class="top-nav">
+    <div>
+      Digitalseva Help
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li><a href="documents.html">Documents Required</a></li>
+      <li><a href="charges.html">Service Charge</a></li>
+      <li><a href="forms.html">Forms</a></li>
+      <li>Editing Tools</li>
+      <li>Posters</li>
+    </ul>
+  </section>
+
+  
+  <div class="container1">
+
+    <!-- BUTTONS (input/labels) -->
+    <input type="radio" name="slider" id="slide-1-trigger" class="trigger" checked>
+    <label class="btn" for="slide-1-trigger"></label>
+    <input type="radio" name="slider" id="slide-2-trigger" class="trigger">
+    <label class="btn" for="slide-2-trigger"></label>
+    <input type="radio" name="slider" id="slide-3-trigger" class="trigger">
+    <label class="btn" for="slide-3-trigger"></label>
+    <input type="radio" name="slider" id="slide-4-trigger" class="trigger">
+    <label class="btn" for="slide-4-trigger"></label>
+
+    <!-- SLIDES -->
+    <div class="slide-wrapper">
+        <div id="slide-role">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+            <div class="slide slide-4"></div>
+        </div>
+    </div>
+
+  </div>
+ 
+  <!-- Services -->
+  <div class="search-wrapper">
+    <label for="search">Search Services</label>
+    <input type="search" id="search" placeholder="Type here" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <div class="cardiv">
+  <template data-user-template>
+    <div class="card card1">
+      <div class="header" data-header></div>
+      <div class="body deco" data-body></div>   
+    </div>
+  </div>  
+  </template>
+
+  <!-- Footer -->
+  
+  <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h4>CHOOSCOD</h4>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					<a href="#">Blog</a>
+				
+					<a href="#">Pricing</a>
+				
+					<a href="#">About</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">CHOOSCOD © 2023</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Calicut</span> Ekarool</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 807556 5598</p> 
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:chooscod@gmail.com">chooscod@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+  
+</body>
+</html>

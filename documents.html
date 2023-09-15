@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>List of All Services & Its documents required</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Service Name</th>
+    <th style="width:40%;">Documents required</th>
+  </tr>
+  
+  <tr>
+    <td>Aadhar PVC Order</td>
+    <td>1. Aadhaar Number</td>
+  </tr>
+  <tr>
+    <td>Birth Certificate</td>
+    <td>1. Hospital/Dispensary certificate <br> 2. Address proof of Parents (Voters ID, Driving Licence) <br>3.Aadhaar <br>4. Mobile Number</td>
+  </tr>
+  <tr>
+    <td>Caste Certificate</td>
+    <td>1. Aadhaar<br>2. Mobile Number<br>3. Ration card <br>4. School Certificate of Aplicant<br>5. Scool Certificate of Parents</td>
+  </tr>
+  <tr>
+    <td>Community Certificate</td>
+    <td>1. Aadhaar<br>2. Mobile Number<br>3. Ration card <br>4. School Certificate of Aplicant<br>5. Scool Certificate of Parents</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate</td>
+    <td>1. Photo <br> 2. Sign <br> 3. Affidavit(Signed by Nottery) <br> 4. Mob No (OTP) <br> 5.DL No & Date of Birth</td>
+  </tr>
+  <tr>
+    <td>Employment Registration</td>
+    <td>1. SSLC <br> 2. Mod No <br> 3. Email ID </td>
+  </tr>
+  <tr>
+    <td>EshramCard</td>
+    <td>1. Aadhaar Number<br>2. PhoneNumber (Aadhaar Linked)<br>3. BankPass Book<br>4. Father Name<br>5. Caste<br>6. Education<br>7. Job<br>8. Monthly Income<br>9. Work Experience<br>10. Nominee Name And DOB</td>
+  </tr>
+  <tr>
+    <td>Income certificate</td>
+    <td>1. Aadhaar <br> 2. Ration Card <br> 3. Land Tax Recipet <br> 4. Mob No </td>
+  </tr>
+  <tr>
+    <td>KSEB Newconnection</td>
+    <td>1.Aadhaar copy<br>2. Land Tax<br>3. Mobile Number (OTP)<br>4. Email ID<br>5. Father Name<br>6. Building Details<br>7.Certificate Number from Licenced Elactrician</td>
+  </tr>
+  <tr>
+    <td>Kudikadam</td>
+    <td>1. Aadhaaram <br> 2. Land tax Recipet </td>
+  </tr>
+  <tr>
+    <td>LandTax</td>
+    <td>1. Previous Land Tax Receipt</td>
+  </tr>
+  <tr>
+    <td>Marriage Registration</td>
+    <td>1. Photo (both) <br> 2. Aadhaar (both) <br> 3. Two Witness Aadhaar  <br> 4. Age Proof of both ( SSLC) <br> 5. Copy of the Certificate from auditorium or marriage place or religious authority concerned or a declaration  about solemnization of marriage</td>
+  </tr>
+  <tr>
+    <td>None creamy layer</td>
+    <td>1. SSLC <br> 2. Parent School Certificate <br> 3. Aadhaar<br> 4. Land Tax Recipet<br> 5.Ration Card </td>
+  </tr>
+  <tr>
+    <td>One and Same Certificate</td>
+    <td>1. Aadhaar card <br> 2.Election ID Card <br> 3. Ration Card<br> 4. Any relevant documents indicating namet<br> 5.Ration Card <br> 6. School Certificate</td>
+  </tr>
+  <tr>
+    <td>Passport </td>
+    <td>1. Aadhaar Number <br>2. Phone Number <br>3. Emergency Contact Number <br>4. SSLC</td>
+  </tr>
+  <tr>
+    <td>Pancard</td>
+    <td>1. Two Photos <br>2. Sign <br>3. Aadhaar copy (with date of birth)<br>4.Father Name <br>5. PhoneNUmber<br>6. Email ID</td>
+  </tr>
+  <tr>
+    <td>Possession Certificate</td>
+    <td>1. Aadhaar <br> 2. Ration Card <br> 3. Land Tax Recipet <br> 4. Aadhaaram </td>
+  </tr>
+  <tr>
+    <td>Building Tax</td>
+    <td>1. Previous Tax Receipt </td>
+  </tr>
+  <tr>
+    <td>PSC Registration</td>
+    <td>1. Photo <br> 2. Photo <br> 3. Sign <br> 4. Aadhaar </td>
+  </tr>
+  <tr>
+    <td>Rationcard PVC</td>
+    <td>1. Aadhhar Number<br>2. Ration Card Number<br>3. PhoneNumber (OTP)<br>4. Email ID</td>
+  </tr>
+  <tr>
+    <td>Employment Renewal</td>
+    <td>1. Employment Card Number</td>
+  </tr>
+  <tr>
+    <td>SSC Registration</td>
+    <td>1. Aadhaar Number <br> 2. SSLC <br> 3. Email <br> 4. Mobile Number</td>
+  </tr>
+  <tr>
+    <td>SSC Examination</td>
+    <td>1. Photo<br>2. Sign</td>
+  </tr>
+  <tr>
+    <td>Pension</td>
+    <td>1. Aadhaar <br> 2. Ration Card <br> 3. Bank Passbook <br> 4. Land Tax Reciept <br> 5. Voter ID <br>6. Photo <br> 7. Age Proof Document (Driving Licence,School Certificate,Passport) </td>
+  </tr>
+  <tr>
+    <td>Sabarimala Booking</td>
+    <td>1. Photo <br> 2. Aadhaar<br> 3. Mob No (OTP) <br> 5. Email ID</td>
+  </tr>
+  <tr>
+    <td>Special Permit</td>
+    <td>1. Photo of RC <br> 2. Mob No(OTP) <br> 3. Details of Passangers <br> 4. Date & Duration of Journey</td>
+  </tr>
+  <tr>
+    <td>Voters ID New</td>
+    <td>1. Photo <br> 2. SSLC/Aadhaar <br> 3. Family Member Voter ID  <br> 4. Mob No (OTP)</td>
+  </tr>
+  <tr>
+    <td>RationCard New</td>
+    <td>1. Photo <br> 2. Ownership/Recidential Certificate <br> 3. Aadhaar of all Members <br> 4. Income Certificate </td>
+  </tr>
+  <tr>
+    <td>Pravasi Mariage Assistance</td>
+    <td>1. Marriage Certificate <br> 2. Ration Card/ SSLC <br> 3. sign <br> 4. Applicant bank passbook</td>
+  </tr>
+  <tr>
+    <td>Aims Registration</td>
+    <td>1. Aadhaar <br> 2. Mob No (OTP)  <br> 3. Bank Passbook <br> 4. Land Tax Reciept</td>
+  </tr>
+  <tr>
+    <td>Employment Special Renewal</td>
+    <td>1. Employment Card Number<br>2. PhoneNumber<br>3. Address<br>4. Ward Number</td>
+  </tr>
+  <tr>
+    <td>Mike Permission for Vehicle (32)</td>
+    <td>1. Aadhaar <br> 2. Mob No (otp) <br> 3. Email id<br> 4. Photo <br> 5. Purpose, organization details <br> 6. Police station & date and time <br> 7. No of boxes <br>8. Vehicle details</td>
+  </tr>
+  <tr>
+    <td>Mike Permission for stage (33)</td>
+    <td>1. Aadhaar <br> 2. Mob No (otp) <br> 3. Email id<br> 4. Photo <br> 5. Purpose, organization details <br> 6. Police station & date and time <br> 7.No of boxes <br>8. Land details</td>
+  </tr>
+  <tr>
+    <td>Fast Tag Recharge (34)</td>
+    <td>1. Fast tag provider name <br> 2. Vehicle no</td>
+  </tr>
+  <tr>
+    <td>Bhoomi Tharam mattam (66)</td>
+    <td>1. Aadhaar <br> 2. Mob No  <br> 3. Aadhaaram <br> 4. Land tax receipt <br> 5. Possession Certificate <br> 6. Agricultural officer sign 
+    </td>
+  </tr>
+  <tr>
+    <td>Post Office GDS (67)</td>
+    <td>1. Aadhaar <br> 2. Mob No (OTP) <br> 3.Email id (OTP) <br> 4. SSLC <br> 5. Photo <br> 6. Sign</td>
+  </tr>
+  <tr>
+    <td>KTET Application (38)</td>
+    <td>1. Aadhaar <br> 2. Mob No  <br> 3. Sslc cetificate <br> 4. Plus two certificate <br> 5. Qualified exam  Certificate <br> 6. Photo <br> 7. Sign  </td>
+  </tr>
+
+  
+  <tr>
+    <td>Domicile Certificate (35)</td>
+    <td>1.SSLC <br> 2.Ration card <br> 3.Birth Certificate <br> 4.Aadhaar <br> 5.Parent school certificate</td>
+  </tr>
+  <tr>
+    <td>MG University Degree Certificate Apply (36)</td>
+    <td>1. Aadhaar <br> 2. Mob No  <br> 3.Email id  <br> 4. SSLC <br> 5. Plus two Certificate <br> 6.Consolidated garde card <b> 7.Provisional Certificate <b> 8. Register No</td>
+  </tr>
+  
+  <tr>
+    <td>Niti Ayog (37)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>PF Withdrawal (39)</td>
+    <td>1.UAN No <br> 2.Password <br> 3.Aadhaar <br> 4.Bank passbook/Cheak leaf <br> 5.Mob No</td>
+  </tr>
+  <td>Non Availability certificate (39)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>PM Kisan Registration (64)</td>
+    <td>1. Aadhaar <br> 2. Mob No  <br> 3.Ration Card <br> 4.Land Tax Receipt <br> 5.Bank passbook</td>
+  </tr>
+  <tr>
+    <td>Plus one Allotment (65)</td>
+    <td>nil</td>
+  </tr>
+  
+  </table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>

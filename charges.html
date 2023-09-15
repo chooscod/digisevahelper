@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>List of All Services & Its Service Charges</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Service Name</th>
+    <th style="width:40%;">Service Charge</th>
+  </tr>
+  
+  <tr>
+    <td>Photostat A4 single side (01)</td>
+    <td>3 - 5/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A4 double side (02)</td>
+    <td>7/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A4 single side colour (03)</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Photostat Legal single side (04)</td>
+    <td>6/-</td>
+  </tr>
+  <tr>
+    <td>Photostat Legal double side (05)</td>
+    <td>8/-</td>
+  </tr>
+  <tr>
+    <td>Photostat Legal single side colour (06)</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A3 single side (07)</td>
+    <td>10/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A3 double side (08)</td>
+    <td>15/-</td>
+  </tr>
+  <tr>
+    <td>Photostat A3 single side colour (09)</td>
+    <td>40/-</td>
+  </tr>
+  <tr>
+    <td>Printout A4 (10)</td>
+    <td>10/-</td>
+  </tr>
+  <tr>
+    <td>Printout A4 Color (11)</td>
+    <td>30/-</td>
+  </tr>
+  <tr>
+    <td>Printout A3 (12)</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Printout A3 color (13)</td>
+    <td>40/-</td>
+  </tr>
+  <tr>
+    <td>Lamination ID Card (14)</td>
+    <td>40/-</td>
+  </tr>
+  <tr>
+    <td>Lamination RC Size (15)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Lamination A4 Size (16)</td>
+    <td>80/-</td>
+  </tr>
+  <tr>
+    <td>Lamination Legal Size (17)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Lamination A3 Size (18)</td>
+    <td>120/-</td>
+  </tr>
+  <tr>
+    <td>ID Card PVC (19)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>DTP A4 per Page (20)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>DTP Legal per Page (21)</td>
+    <td>120/-</td>
+  </tr>
+  <tr>
+    <td>DTP Agreement Typing (Min. Charge) (22)</td>
+    <td>250/-</td>
+  </tr>
+  <tr>
+    <td>DTP Printing to Stamp Paper (Per Page) (23)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Scanning Per Paper (24)</td>
+    <td>10/-</td>
+  </tr>
+  <tr>
+    <td>Spiral Binding ( Minimum) (25)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Fund Tranfer </td>
+    <td>Mini. 20/- + (Extra 10/- per 1000/-) (26)</td>
+  </tr>
+  <tr>
+    <td>Aadhaar PVC (27)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Aims Registration (28)</td>
+    <td>70 - 100/-</td>
+  </tr>
+  <tr>
+    <td>Birth Registration (29)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Caste Certificate (30)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Community Certificate (31)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Duplicate (32)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Employment Registration (33)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Employment Renewal (34)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Employment Special Renewal (35)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>E-shramCard(with PVC) (36)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>KSEB Newconnection (37)</td>
+    <td>120/-</td>
+  </tr>
+  <tr>
+    <td>Land Tax (38)</td>
+    <td>20/- [Upto 200] <br>30/- [Upto 500] <br>40/- [Upto 1000]</td>
+  </tr>
+  <tr>
+    <td>Marriage Registration (39)</td>
+    <td>150 - 200/-</td>
+  </tr>
+  <tr>
+    <td>None-creamy Layer Certificate (40)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>One and Same Certificate (41)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>PSC Registration (42)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>SSC Registration (43)</td>
+    <td>100 - 150/-/-</td>
+  </tr>
+  <tr>
+    <td>SSC Examination Apply (44)</td>
+    <td>50 - 100/-</td>
+  </tr>
+  <tr>
+    <td>UPSC Registration (45)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Ration PVC (46)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Sabarimal Booking (47)</td>
+    <td>30/Person</td>
+  </tr>
+  <tr>
+    <td>Special Permit for Vehicle (48)</td>
+    <td>30/Person</td>
+  </tr>
+  <tr>
+    <td>Voters ID New (49)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Building Tax (50)</td>
+    <td>20/-  [upto 500]<br>30/- [500 - 100] <br> 30+10 per 1000/- [Above 1000/-]</td>
+  </tr>
+  <tr>
+    <td>Pravasi Registration (51)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Pravasi Kshemanidhi (52)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>KSEB Bill Payment (53)</td>
+    <td>Mini.20/-</td>
+  </tr>
+  <tr>
+    <td>Email service (54)</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>Biodata (55)</td>
+    <td>Normal-50/- <br> Advanced - 100/-</td>
+  </tr>
+  <tr>
+    <td>Camera Fine Payment (56)</td>
+    <td>0/-</td>
+  </tr>
+  <tr>
+    <td>Egrants Scholorship (57)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Pre-matric Scholorship (58)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Post-matric Scholorship (59)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>PCC (Police Clearance Certificate) (60)</td>
+    <td>100 - 150/-</td>
+  </tr>
+  <tr>
+    <td>Food Safety Licence Registration (FSSAI)(61)</td>
+    <td>100 - 150/-</td>
+  </tr>
+  <tr>
+    <td>Employment Exchange Qualification Addition (62)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Aims Land Verification (63)</td>
+    <td>Min.20/-</td>
+  </tr>
+  <tr>
+    <td>PM Kisan Registration (64)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Plus one Allotment (65)</td>
+    <td>80/-</td>
+  </tr>
+  <tr>
+    <td>Pancard (66)</td>
+    <td>250/-</td>
+  </tr>
+  <tr>
+    <td>Passport(67)</td>
+    <td>1800/-</td>
+  </tr>
+  <tr>
+    <td>Income Certificate (68)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Possession Certificate (69)</td>
+    <td>60/-</td>
+  </tr>
+  <tr>
+    <td>Encumbrance (Kudikkadam) (70)</td>
+    <td>Fee + Min. 100/-</td>
+  </tr>
+  <tr>
+    <td>Account Opening (71)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>University Fee Payment (72)</td>
+    <td>Min.30/-</td>
+  </tr>
+  <tr>
+    <td>Hallticket Download (73)</td>
+    <td>20/-</td>
+  </tr>
+  <tr>
+    <td>NEET/JEE/KEAM/ICSR/IISER Application (74)</td>
+    <td>200/-</td>
+  </tr>
+  <tr>
+    <td>Pension (75)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Tailoring Welfare Kshemanidhi Payment (76)</td>
+    <td>Min.20/-</td>
+  </tr>
+  <tr>
+    <td>Mice Permission for Vehicle (77)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Mice Permission for Stage (78)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Add name in Voters List (79)</td>
+    <td>80/-</td>
+  </tr>
+  <tr>
+    <td>IGNOU Registration Charge(80)</td>
+    <td>200 - 300/-</td>
+  </tr>
+  <tr>
+    <td>Domicile Certificate (81)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Fast Tag Recharge (82)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Bus Ticket Booking (83)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>MG University Degree Certificate Apply (84)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Niti Ayog (85)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>KTET/SET/JRF Application (86)</td>
+    <td>150/-</td>
+  </tr>
+  <tr>
+    <td>PF Withdrawal (87)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Calicut University Registration (88)</td>
+    <td>150/-</td>
+  </tr>
+  <tr>
+    <td>Calicut University Payments (89)</td>
+    <td>50 - 100/-</td>
+  </tr>
+  <tr>
+    <td>Central University Registration (90)</td>
+    <td>150/-</td>
+  </tr>
+  <tr>
+    <td>VidyaLakshmi/Janasamarthy Loan (91)</td>
+    <td>200/-</td>
+  </tr>
+  <tr>
+    <td>PSC Document Uploading (92)</td>
+    <td>20/File</td>
+  </tr>
+  <tr>
+    <td>PSC Exam Applicantion(93)</td>
+    <td>10 - 20/Application</td>
+  </tr>
+  <tr>
+    <td>Army/Navy/Airforce Registration(94)</td>
+    <td>150 - 200/-</td>
+  </tr>
+  <tr>
+    <td>Driving Licence Renewal(95)</td>
+    <td>200/-</td>
+  </tr>
+  <tr>
+    <td>RC Transfer + Fees(96)</td>
+    <td>150/-</td>
+  </tr>
+  <tr>
+    <td>Parivahan(97)</td>
+    <td>nil</td>
+  </tr>
+  <tr>
+    <td>Parivahan Tax Payment(98)</td>
+    <td>Min. 100/-</td>
+  </tr>
+  <tr>
+    <td>Parivahan EChallan/Camera Fine(99)</td>
+    <td>Min. 50/- (Upto 1000/-) <br>50+10 per 1000/- [Above 1000/-]</td>
+  </tr>
+  <tr>
+    <td>Udhyam Registration(100)</td>
+    <td>300/-</td>
+  </tr>
+  <tr>
+    <td>Tailoring Welfare Kshemanidhi Payment (101)</td>
+    <td>30 - 50/-</td>
+  </tr>
+  <tr>
+    <td>Pravasi Welfare Kshemanidhi Payment (101)</td>
+    <td>30 - 50/-</td>
+  </tr>
+  <tr>
+    <td>Motor Welfare Kshemanidhi Payment (102)</td>
+    <td>30 - 50/-</td>
+  </tr>
+  <tr>
+    <td>Fast Tag New (103)</td>
+    <td>200 - 250/-</td>
+  </tr>
+  <tr>
+    <td>Fast Tag KYC Update (104)</td>
+    <td>100 - 150/-</td>
+  </tr>
+  <tr>
+    <td>Chief Ministers Relief Fund Application (105)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Minority Welfare Scholorships (106)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Labour Registration New(106)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Labour Registration Renewal/Amendment (106)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>NORKA Registration/Renewal (107)</td>
+    <td>100 - 150/-</td>
+  </tr>
+  <tr>
+    <td>NORKA NDPREM Application (108)</td>
+    <td>150 - 200/-</td>
+  </tr>
+  <tr>
+    <td>NORKA Attestation (109)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Pravasi Welfare Application(110)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Tharam Mattam FORM5/FORM6 (111)</td>
+    <td>150 - 200/-</td>
+  </tr>
+  <tr>
+    <td>New Ration Card (112)</td>
+    <td>200/-</td>
+  </tr>
+  <tr>
+    <td>Ration Card Services (112)</td>
+    <td>70/-</td>
+  </tr>
+  <tr>
+    <td>Ration Card Member Addition (113)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Location Map (114)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>KSEB Bill (115)</td>
+    <td>15/-  [Upto 500/-] <br>20/- [500-1000] <br>30/- [1000-3000] <br> 1% [Above 3000]</td>
+  </tr>
+  <tr>
+    <td>KSEB Online Services (116)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Panchayath/Municipal Licence New/Renewal (117)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Photostat ID Card (118)</td>
+    <td>5/-</td>
+  </tr>
+  <tr>
+    <td>Print from social Media (119)</td>
+    <td>5/-</td>
+  </tr>
+  <tr>
+    <td>Photo Paper Printing color A4  (120)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Jeevan Praman (Life Certificate)  (121)</td>
+    <td>50/-</td>
+  </tr>
+  <tr>
+    <td>Job Applicantion(122)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>UDID Card Registration(123)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>CIBIL Report(124)</td>
+    <td>100/-</td>
+  </tr>
+  <tr>
+    <td>Food Safety Licence Registration (FSSAI)(125)</td>
+    <td>100/-</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
