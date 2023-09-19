@@ -139,7 +139,7 @@
     },
     {
       "id": 24,
-      "name": "Kerala tailoring works welfare fund board",
+      "name": "Kerala tailoring works welfare fund board/Tailors kshemanidhi",
       "email": "https://www.tailorwelfare.in/"
       
     },
@@ -261,7 +261,38 @@
       "name": "Tharammattam, Pokkuvaravu, Thandapper, Location map",
       "email": "https://revenue.kerala.gov.in/"
       
-    }    
+    },
+    {
+      "id": 46,
+      "name": "PM Kisan Beneficiary Status check",
+      "email": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx"
+      
+    } 
+    ,
+    {
+      "id": 47,
+      "name": "My Aadhaar",
+      "email": "https://tathya.uidai.gov.in/login"
+      
+    },
+    {
+      "id": 48,
+      "name": "E Aadhaar",
+      "email": "https://tathya.uidai.gov.in/login"
+      
+    },
+    {
+      "id": 49,
+      "name": "Aadhaar pvc",
+      "email": "https://tathya.uidai.gov.in/login"
+      
+    },
+    {
+      "id": 49,
+      "name": "Aadhaar updates",
+      "email": "https://tathya.uidai.gov.in/login"
+      
+    }
     
     
     
