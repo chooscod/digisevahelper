@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  
+}
+
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+ 
+}
+
+#myTable th{
+  color: aliceblue;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #1f814b;
+}
+</style>
+</head>
+<body>
+
+<h2>Download all Forms</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Form Name</th>
+    <th style="width:40%;">Download Link</th>
+  </tr>
+  <tr>
+    <td>Reduce image size</td>
+    <td><a href="https://www.reduceimages.com/">Click here</a></td>
+  </tr>
+  <tr>
+    <td>Reduce Pdf size</td>
+    <td><a href="https://www.ilovepdf.com/compress_pdf">Click here</a></td>
+  </tr>
+  <tr>
+    <td>jpg - pdf</td>
+    <td><a href="https://www.ilovepdf.com/jpg_to_pdf">Click here</a></td>
+  </tr>
+  <tr>
+    <td>png - pdf</td>
+    <td><a href="https://png2pdf.com/">Download</a></td>
+  </tr> <tr>
+    <td>merge image</td>
+    <td><a href="https://pinetools.com/merge-images">Download</a></td>
+  </tr>
+  </tr> 
+  <tr>
+    <td>merge pdf</td>
+    <td><a href="https://www.ilovepdf.com/merge_pdf">Download</a></td>
+  </tr>
+  
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
