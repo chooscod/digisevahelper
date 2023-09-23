@@ -33,7 +33,7 @@ fetch("data.json")
         
       // Set the title.
       a.title = "This is Link"; 
-        
+      a.target = "_blank"; 
       // Set the href property.
       a.href = user.email; 
         
