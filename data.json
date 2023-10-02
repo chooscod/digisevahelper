@@ -304,6 +304,24 @@
       "name": "Arogya Insurance",
       "email": "https://beneficiary.nha.gov.in/"
       
+    },
+    {
+      "id": 53,
+      "name": "Egrantz Onetime Registration",
+      "email": "https://egrantz.kerala.gov.in/Registration/onetime_reg"
+      
+    },
+    {
+      "id": 54,
+      "name": "Egrantz Track Application",
+      "email": "https://egrantz.kerala.gov.in/Registration/search_application_stat"
+      
+    },
+    {
+      "id": 55,
+      "name": "Egrantz Students Login",
+      "email": "https://egrantz.kerala.gov.in/Registration/index"
+      
     }
     
     
