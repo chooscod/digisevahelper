@@ -101,6 +101,7 @@ a{
   background: linear-gradient(150deg, #7c9494, #3f5252 100%);
 }
 
+
 /* Navbar */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 h2 {
@@ -404,7 +405,9 @@ input[type="radio"]:checked+label.btn::after {
   transform: scale(1.1, 1.1);
   background: lightskyblue;
 }
-
+.short{
+  padding-bottom: 20px;
+}
 /*=====================================================================================
               MEDIA QUERIES
 =======================================================================================*/
