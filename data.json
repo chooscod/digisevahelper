@@ -25,7 +25,7 @@
     },
     {
       "id": 5,
-      "name": "Sabarimala Booking",
+      "name": "Sabarimala Booking (Virtual Queue)",
       "email": "https://sabarimalaonline.org/#/register"
       
     },
@@ -110,7 +110,7 @@
     {
       "id": 19,
       "name": "Encumbrance (Kudikadam)",
-      "email": "https://pearl.registration.kerala.gov.in/ecapln.php?tok=3yskfjk4s44d94"
+      "email": "https://pearl.registration.kerala.gov.in/index.php"
       
     },
     {
@@ -133,7 +133,7 @@
     },
     {
       "id": 23,
-      "name": "Police clearance certificate",
+      "name": "Police clearance certificate (PCC)",
       "email": "https://thuna.keralapolice.gov.in/"
       
     },
@@ -327,6 +327,66 @@
       "id": 56,
       "name": "Udyam Registrion",
       "email": "https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm"
+      
+    },
+    {
+      "id": 57,
+      "name": "Mike permission",
+      "email": "https://thuna.keralapolice.gov.in/home"
+      
+    },
+    {
+      "id": 58,
+      "name": "Police clearance certificate (PCC) for Outside ",
+      "email": "https://portal2.passportindia.gov.in/AppOnlineProject/welcomeLink#"
+      
+    },
+    {
+      "id": 59,
+      "name": "Driving licence related ",
+      "email": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelectBean.do"
+      
+    },
+    {
+      "id": 60,
+      "name": "Voters ID ",
+      "email": "https://voters.eci.gov.in/Homepage"
+      
+    },
+    {
+      "id": 61,
+      "name": "Edistrict ",
+      "email": "https://edistrict.kerala.gov.in/"
+      
+    },
+    {
+      "id": 62,
+      "name": "Virtual Court ",
+      "email": "https://vcourts.gov.in/virtualcourt/"
+      
+    },
+    {
+      "id": 63,
+      "name": "Edistrict Application Status ",
+      "email": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en"
+      
+    },
+    {
+      "id": 64,
+      "name": "Arogya Insurance card",
+      "email": "https://bis.pmjay.gov.in/BIS/mobileverify"
+      
+    },
+    {
+      "id": 65,
+      "name": "health ID ABHA",
+      "email": "https://healthid.ndhm.gov.in/"
+      
+    },
+    {
+      "id": 66,
+      "name": "NMMS",
+      "email": "http://nmmse.kerala.gov.in/"
       
     }
     
