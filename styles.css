@@ -1,6 +1,4 @@
-body{
-  background-color:#183a35 ;
-}
+
 
 
 .search-wrapper {
@@ -9,7 +7,7 @@ body{
   gap: .25rem;
   color: white;
   padding-bottom: 20px;
-  background-color: #183a35;;
+
   
 }
 
@@ -18,9 +16,25 @@ body{
   margin-left: 25%;
   font-size: 30px;
   font-weight: bolder;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
   
+}
+
+.button {
+  
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 1px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  background-color: #6a909c;
+  border-radius: 4px;
 }
 
 .search-wrapper input 
@@ -28,32 +42,29 @@ body{
   margin: auto;
   font-size:20px;
   width: 90%;
-  background: #70a897;
+  background: #edf0ef;
   border: none;
   outline: none;
   padding: 25px 10px 7.5px;
   border-radius: 4px;
-  color: #fff;
+  color: #022723;
   font-weight: 500;
+  box-shadow: 0 0px 10px rgba(71,71,71,.2);
 
 }
 
-.cardiv{
-  background: linear-gradient(150deg, #011d14, #013028 100%);
-}
 
 .user-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: .85rem;
-  background-color: #183a35;
+  box-shadow: 0 0px 10px rgba(71,71,71,.2);
   margin-left: 2px;
   
 }
 
 .card {
   border: 1px solid black;
-  background-color: white;
   padding: .5rem;
 }
 
@@ -63,7 +74,8 @@ body{
 
 .card > .body {
   font-size: .8rem;
-  color: #777;
+  color: #e1e5e4;
+  font-family: cursive;
 }
 
 .hide {
@@ -72,11 +84,16 @@ body{
 
 .deco{
   text-decoration: none;
+  color: #edf0ef;
 }
+.buttondiv{
+  padding-left: 20px;
 
+}
 a{
-  text-decoration: none;
+  
   color: white;
+
 }
 
 .card1 {
@@ -90,16 +107,17 @@ a{
   float: left;
   margin-right: 5px;
   margin-left: 15px;
+  background:#d6e4e9;
+  color: #0c3a3a;
 
 }
 
 .header{
   font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.card1 {
-  background: linear-gradient(150deg, #7c9494, #3f5252 100%);
-}
+
 
 
 /* Navbar */
@@ -125,7 +143,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #046168, #054444);
+  background: linear-gradient(to left, #046168, #0c3a3a);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
@@ -640,4 +658,5 @@ input[type="radio"]:checked+label.btn::after {
 		margin-left: 0;
 	}
 
+}
 }
