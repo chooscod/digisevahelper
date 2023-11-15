@@ -392,6 +392,12 @@
     {
       "id": 67,
       "name": "Labour Renewal Payment",
+      "email": "https://lcas.lc.kerala.gov.in/office/registration/onlinerenewal_online_pay.php"
+      
+    },
+    {
+      "id": 68,
+      "name": "Labour Service",
       "email": "https://www.lc.kerala.gov.in/"
       
     }
