@@ -44,15 +44,13 @@
           
           function checkCookie() {
             let user = getCookie("username");
-            if (user == "25630"|| user=="53240") {
+            alert("id " + user);
+            if (user == "5630"|| user=="53240") {
               
             } else {
-              
-                   alert("Your need Activation, Contact : 8075 565 598");
+               alert("Get your ID");
                location.href="/register.html";
-               if (user != "" && user != null) {
-                 setCookie("username", user, 365);
-               }
+               
             }
           }
           </script>      
