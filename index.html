@@ -48,11 +48,10 @@ function checkCookie() {
     alert("Your ID " + user);
   } else {
      user = prompt("Please enter your ID:","");
-     if (user != "" && user != null) {
+     
        setCookie("username", user, 365);
        location.href="/register.html";
 
-     }
   }
 }
 </script>      
