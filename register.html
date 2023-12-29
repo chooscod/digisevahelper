@@ -30,11 +30,16 @@
         
         function checkCookie() {
           let user = getCookie("username");
-          if (user == "5630"|| user=="53240") {
+          if (user == "45679"|| user=="53240") {
+            alert("Your Id :" + user)
             alert("Your are Activated");
             location.href="/index.html";
           } else {
-            
+             alert("You need Activation");
+             user = prompt("Please enter your ID:","");
+             if (user != "" && user != null) {
+               setCookie("username", user, 365);
+             }
              location.href="/register.html";
              
           }
